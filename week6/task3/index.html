@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            font-family: Montserrat;
+            font-size: 50px;
+            font-weight: 400;
+            line-height: 42.67px;
+            text-align: left;
+            width: 424px;
+            height: 172px;
+            top: 369px;
+            left: 299px;
+            gap: 0.5px;
+            opacity: 0px;
+        }
+        h2 {
+            text-align: center;
+            text-transform: uppercase;
+            font-family: Raleway;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 23.48px;
+        }
+        h3 {
+            font-family: Montserrat;
+            text-transform: uppercase;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 43.88px;
+            text-align: left;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        button {
+            text-decoration: solid;
+            border-radius: 25%;
+            border: 2.5px solid #434343;
+            background: transparent;
+            padding: 10px;
+        }
+        .wrapper {
+            display: grid;
+            background-image: url(assets/119104210865_1.png);
+            background-size: 100%;
+            background-position: 100%;
+            height: 700px;
+            grid-template-columns: 20% 50%;
+            grid-template-rows: repeat(3, 200px);
+            justify-content: center;
+            align-items: center;
+            justify-items: center;
+        }
+        .child1 {
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+        .child2 {
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+        .child3 {
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+        .child4 {
+            grid-column: 2/3;
+            grid-row: 1/4;
+        }
+        .container1 {
+            display: grid;
+            grid-template-columns: 600px 500px 500px;
+            grid-template-rows: 1fr 1fr;
+            justify-content: center;
+            align-items: center;
+            row-gap: 20px;
+            column-gap: 10px;
+            margin-bottom: 30px;
+        }
+        .item1 {
+            grid-column: 1/2;
+            grid-row: 1/3;
+        }
+        .item2 {
+            grid-column: 2/4;
+            grid-row: 1/2;
+        }
+        .container2 {
+            display: grid;
+            grid-template-columns: repeat(4, 400px);
+            grid-template-rows: repeat(3, 1fr);
+            justify-content: center;
+            align-items: center;
+            row-gap: 20px;
+            column-gap: 10px;
+            margin-bottom: 30px;
+        }
+        .item5 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            /* background-color: blue; */
+        }
+        .item6 {
+            grid-column-start: 3;
+			grid-column-end: 4;
+            grid-row: 1/2;
+            /* background-color: blueviolet; */
+        }
+        .item7 {
+            grid-column: 4/5;
+            grid-row: 1/2;
+            /* background-color: brown; */
+        }
+        .item8 {
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+        .item9 {
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+        .item10 {
+            grid-column: 3/5;
+            grid-row: 2/4;
+            /* background-color: aquamarine; */
+        }
+        .item11 {
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+        .item12 {
+            grid-column: 2/3;
+            grid-row: 3/4;
+            /* background-color: blanchedalmond; */
+        }
+        .image{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+        .container3 {
+            display: grid;
+            grid-template-columns: repeat(4, 400px);
+            grid-template-rows: 1fr;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        span {
+            color: #2D76A6;
+        }
+        .container4 {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+        }
+        .comments {
+            display: grid;
+            grid-template-columns: repeat(3, 500px);
+            column-gap: 100px;
+            justify-content: center;
+            justify-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <div class="child1"><h1>Популярные варианты <br>термопродукци с <br>полноцветным <br>нанесением</h1></div>
+            <div class="child2"><button>ПЕРЕЙТИ</button></div>
+            <div class="child3"><img src="assets/Group_288.png" alt="png"></div>
+            <div class="child4"><img src="assets/pretty-woman-enjoying-beverage-street_1.png" alt="png"></div>
+        </div>
+
+        </div>
+        <div><h2>брендированная продукцИя   -   ДОСТАВКА по всей россии и снг</h2></div>
+        <div class="container1">
+        <div class="item1 image"><img src="assets/Group_14.png" alt="png"></div>
+        <div class="item2 image"><img src="assets/Frame_71.png" alt="png"></div>
+        <div class="item3 image"><img src="assets/Group_31.png" alt="png"></div>
+        <div class="item4 image"><img src="assets/Group_32.png" alt="png"></div>
+    </div>
+    <div class="container2">
+        <div class="item5 image"><img src="assets/Component_1.png" alt="png"></div>
+        <div class="item6 image"><img src="assets/Group_140.png" alt="png"></div>
+        <div class="item7 image"><img src="assets/Group_29.png" alt="png"></div>
+        <div class="item8 image"><img src="assets/Group_12.png" alt="png"></div>
+        <div class="item9 image"><img src="assets/Group_15.png" alt="png"></div>
+        <div class="item10"><img src="assets/Group_13.png" alt="png"></div>
+        <div class="item11 image"><img src="assets/Group_139.png" alt="png"></div>
+        <div class="item12 image"><img src="assets/Group_30.png" alt="png"></div>
+    </div>
+        <div><h3>Рекомендуем</h3></div>
+    <div class="container3">
+        <div class="image"><img src="assets/Group_33.png" alt="png"></div>
+        <div class="image"><img src="assets/Group_225.png" alt="png"></div>
+        <div class="image"><img src="assets/Group_226.png" alt="png"></div>
+        <div class="image"><img src="assets/Group_227.png" alt="png"></div>
+    </div>
+    <div class="container4">
+        <div><h3>ОТзывы наших клиентов <span>“ВКОНТАКТЕ”</span></h3></div>
+        <div><h3>УЖЕ 1 116,   <span>читать ОТЗЫВЫ В НАШЕЙ ГРУППЕ</span></h3></div>
+    </div>
+    <div class="comments">
+        <div><img src="assets/Group_24.png" alt="png"></div>
+        <div><img src="assets/Group_230.png" alt="png"></div>
+        <div><img src="assets/Group_231.png" alt="png"></div>
+        <div><img src="assets/Group_234.png" alt="png"></div>
+        <div><img src="assets/Group_232.png" alt="png"></div>
+        <div><img src="assets/Group_233.png" alt="png"></div>
+    </div>
+    </main>
+    <footer>
+    </footer>
+    </body>
+</html>
